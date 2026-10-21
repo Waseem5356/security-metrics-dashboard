@@ -1,0 +1,15 @@
+risk_id,risk_title,csf_function,csf_category,likelihood,impact,inherent_score,inherent_rating,residual_score,residual_rating,treatment,owner_role,priority,action_status
+R-01,Internet-exposed Remote Desktop leads to ransomware,PROTECT,PR.IR,4,5,20,Critical,8,Medium,Mitigate,IT Manager,Immediate (30 days),In progress
+R-02,Unsupported warehouse server fails or is compromised,PROTECT,PR.PS,3,4,12,High,8,Medium,Mitigate,IT Manager (with the WMS vendor),Short term (60 days),Not started
+R-03,Email accounts taken over because MFA is missing for most users,PROTECT,PR.AA,4,4,16,High,6,Medium,Mitigate,IT Manager,Short term (60 days),In progress
+R-04,Backups unusable when needed,RECOVER,RC.RP,3,5,15,High,6,Medium,Mitigate,System Administrator,Short term (60 days),Not started
+R-05,Departed staff and shared logins misused,PROTECT,PR.AA,4,3,12,High,4,Low,Mitigate,HR Manager and IT Manager,Short term (60 days),In progress
+R-06,Partner VPN becomes a path into the warehouse network,GOVERN,GV.SC,2,4,8,Medium,4,Low,Mitigate,IT Manager,Medium term (90 days),Not started
+R-07,An attack goes unnoticed because nobody watches logs or alerts,DETECT,DE.CM,4,3,12,High,6,Medium,Mitigate,System Administrator,Short term (60 days),Not started
+R-08,Weak incident response slows containment,RESPOND,RS.MA,3,3,9,Medium,4,Low,Mitigate,IT Manager,Medium term (90 days),Not started
+R-09,Lost or stolen unencrypted laptop,PROTECT,PR.DS,3,3,9,Medium,3,Low,Mitigate,System Administrator,Medium term (90 days),Not started
+R-10,Sensitive data open to too many staff,PROTECT,PR.DS,3,3,9,Medium,4,Low,Mitigate,IT Manager,Medium term (90 days),Not started
+R-11,Unpatched laptops exploited,PROTECT,PR.PS,3,3,9,Medium,4,Low,Mitigate,System Administrator,Medium term (90 days),Not started
+R-12,Vendor weakness exposes the company,GOVERN,GV.SC,2,3,6,Medium,4,Low,Mitigate,IT Manager,Medium term (90 days),Not started
+R-13,Unauthorized physical access to the server room,PROTECT,PR.AA,2,3,6,Medium,3,Low,Mitigate,Facilities Manager,Medium term (90 days),Not started
+R-14,No leadership oversight leads to missed insurance requirements,GOVERN,GV.RM,4,3,12,High,6,Medium,Mitigate,Executive team (named risk owner),Short term (60 days),Not started

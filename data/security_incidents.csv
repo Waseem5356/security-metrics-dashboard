@@ -1,0 +1,415 @@
+incident_id,detected_at,detected_date,first_response_at,resolved_at,incident_type,severity,department,asset_type,detection_source,status,related_risk_id
+INC-0001,10/1/2025 7:09,10/1/2025,10/1/2025 16:41,10/4/2025 7:42,Phishing Email,Medium,Finance,Email Account,User Report,Closed,R-03
+INC-0002,10/1/2025 10:34,10/1/2025,10/1/2025 16:21,10/7/2025 19:56,Data Exposure,Medium,HR,Cloud Application,User Report,Closed,R-10
+INC-0003,10/2/2025 16:34,10/2/2025,10/3/2025 2:09,10/4/2025 15:50,Phishing Email,High,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0004,10/3/2025 8:18,10/3/2025,10/4/2025 12:14,10/22/2025 9:40,Malware / Suspicious File,Low,Sales,Laptop,User Report,Closed,R-11
+INC-0005,10/3/2025 16:17,10/3/2025,10/4/2025 5:13,10/5/2025 3:12,Vendor / Third-Party Issue,Medium,Finance,Cloud Application,Vendor Notice,Closed,R-12
+INC-0006,10/5/2025 8:50,10/5/2025,10/5/2025 9:38,10/11/2025 6:23,Remote Access Attempt,High,Warehouse Operations,File Server,SIEM Alert,Closed,R-01
+INC-0007,10/5/2025 15:33,10/5/2025,10/5/2025 16:39,10/7/2025 14:38,Remote Access Attempt,High,Sales,Network Device,Firewall Log,Closed,R-01
+INC-0008,10/8/2025 13:37,10/8/2025,10/8/2025 18:16,10/17/2025 0:38,Lost or Stolen Device,Low,Dispatch,Laptop,User Report,Closed,R-09
+INC-0009,10/10/2025 8:06,10/10/2025,10/11/2025 7:48,10/23/2025 13:10,Phishing Email,Low,IT,Email Account,User Report,Closed,R-03
+INC-0010,10/10/2025 10:10,10/10/2025,10/10/2025 14:34,10/11/2025 16:36,Phishing Email,Medium,IT,Laptop,Email Gateway,Closed,R-03
+INC-0011,10/10/2025 14:26,10/10/2025,10/10/2025 16:49,10/14/2025 4:57,Data Exposure,High,Executive,Cloud Application,Access Review,Closed,R-10
+INC-0012,10/11/2025 7:42,10/11/2025,10/11/2025 16:06,10/12/2025 20:34,Unauthorized Access,High,Warehouse Operations,Warehouse System,Access Review,Closed,R-05
+INC-0013,10/12/2025 20:01,10/12/2025,10/13/2025 0:44,10/21/2025 21:19,Phishing Email,Low,Customer Service,Laptop,User Report,Closed,R-03
+INC-0014,10/14/2025 11:24,10/14/2025,10/14/2025 19:33,10/18/2025 20:19,Malware / Suspicious File,Low,Finance,Workstation,User Report,Closed,R-11
+INC-0015,10/15/2025 11:43,10/15/2025,10/17/2025 23:21,11/6/2025 14:56,Credential Stuffing / Failed Logins,Low,Customer Service,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0016,10/16/2025 17:59,10/16/2025,10/16/2025 21:37,10/22/2025 11:39,Unauthorized Access,Medium,IT,Cloud Application,Access Review,Closed,R-05
+INC-0017,10/17/2025 16:55,10/17/2025,10/18/2025 13:54,10/20/2025 9:57,Phishing Email,Medium,Customer Service,Laptop,SIEM Alert,Closed,R-03
+INC-0018,10/18/2025 16:36,10/18/2025,10/19/2025 14:29,10/26/2025 5:28,Credential Stuffing / Failed Logins,Low,IT,Email Account,Identity Provider Log,Closed,R-03
+INC-0019,10/22/2025 2:11,10/22/2025,10/22/2025 13:18,10/27/2025 17:22,Policy Violation,Low,Warehouse Operations,Email Account,User Report,Closed,R-14
+INC-0020,10/23/2025 17:36,10/23/2025,10/23/2025 18:13,10/25/2025 7:42,Malware / Suspicious File,High,Warehouse Operations,Workstation,Endpoint Protection,Closed,R-11
+INC-0021,10/24/2025 17:27,10/24/2025,10/25/2025 19:47,10/27/2025 20:30,Policy Violation,Low,IT,Workstation,Access Review,Closed,R-14
+INC-0022,10/25/2025 2:26,10/25/2025,10/25/2025 6:50,10/28/2025 13:35,Phishing Email,Medium,Finance,Laptop,Email Gateway,Closed,R-03
+INC-0023,10/25/2025 2:31,10/25/2025,10/25/2025 16:21,10/31/2025 12:38,Unauthorized Access,Medium,Dispatch,Warehouse System,Access Review,Closed,R-05
+INC-0024,10/25/2025 14:17,10/25/2025,10/26/2025 0:44,10/27/2025 11:56,Phishing Email,Medium,HR,Laptop,SIEM Alert,Closed,R-03
+INC-0025,10/26/2025 9:35,10/26/2025,10/26/2025 20:32,10/28/2025 9:07,Lost or Stolen Device,Medium,Sales,Scanner,User Report,Closed,R-09
+INC-0026,10/27/2025 7:45,10/27/2025,10/27/2025 10:47,10/30/2025 12:12,Remote Access Attempt,High,Warehouse Operations,File Server,Firewall Log,Closed,R-01
+INC-0027,10/28/2025 15:56,10/28/2025,10/28/2025 18:23,10/29/2025 23:22,Malware / Suspicious File,High,Customer Service,Workstation,Endpoint Protection,Closed,R-11
+INC-0028,10/29/2025 7:34,10/29/2025,10/29/2025 11:20,10/30/2025 10:42,Data Exposure,Medium,HR,Cloud Application,Access Review,Closed,R-10
+INC-0029,10/30/2025 10:51,10/30/2025,10/30/2025 12:24,11/3/2025 1:54,Phishing Email,High,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0030,10/31/2025 8:56,10/31/2025,10/31/2025 21:49,11/8/2025 19:47,Vendor / Third-Party Issue,Low,Customer Service,Cloud Application,Vendor Notice,Closed,R-12
+INC-0031,11/1/2025 7:48,11/1/2025,11/1/2025 11:53,11/7/2025 0:36,Vendor / Third-Party Issue,Medium,Unknown,Cloud Application,Vendor Notice,Closed,R-12
+INC-0032,11/2/2025 11:46,11/2/2025,11/2/2025 15:16,11/6/2025 19:23,Malware / Suspicious File,Medium,HR,Workstation,User Report,Closed,R-11
+INC-0033,11/2/2025 20:11,11/2/2025,11/3/2025 16:25,12/2/2025 16:00,Malware / Suspicious File,Low,Executive,Workstation,Endpoint Protection,Closed,R-11
+INC-0034,11/3/2025 13:43,11/3/2025,11/3/2025 17:41,11/4/2025 14:53,Malware / Suspicious File,High,Warehouse Operations,Laptop,Endpoint Protection,Closed,R-11
+INC-0035,11/5/2025 13:57,11/5/2025,11/5/2025 16:20,11/15/2025 6:05,Phishing Email,Medium,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0036,11/6/2025 7:56,11/6/2025,11/6/2025 9:26,11/15/2025 4:31,Phishing Email,Medium,Customer Service,Email Account,User Report,Closed,R-03
+INC-0037,11/6/2025 8:35,11/6/2025,11/7/2025 8:20,11/21/2025 4:30,Credential Stuffing / Failed Logins,Low,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0038,11/11/2025 10:41,11/11/2025,11/11/2025 12:40,11/13/2025 15:19,Remote Access Attempt,High,HR,File Server,Firewall Log,Closed,R-01
+INC-0039,11/11/2025 10:53,11/11/2025,11/11/2025 21:47,11/15/2025 0:34,Phishing Email,Medium,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0040,11/12/2025 8:35,11/12/2025,11/12/2025 18:29,11/14/2025 23:19,Malware / Suspicious File,Medium,Finance,Laptop,User Report,Closed,R-11
+INC-0041,11/12/2025 10:38,11/12/2025,11/12/2025 16:21,11/15/2025 0:29,Unauthorized Access,Medium,Sales,Warehouse System,User Report,Closed,R-05
+INC-0042,11/13/2025 10:35,11/13/2025,11/14/2025 10:12,11/17/2025 2:38,Phishing Email,Low,Finance,Laptop,Email Gateway,Closed,R-03
+INC-0043,11/14/2025 9:57,11/14/2025,11/18/2025 23:56,11/24/2025 5:50,Phishing Email,Low,Dispatch,Email Account,User Report,Closed,R-03
+INC-0044,11/14/2025 14:54,11/14/2025,11/15/2025 5:50,11/24/2025 9:12,Phishing Email,Low,Customer Service,Laptop,Email Gateway,Closed,R-03
+INC-0045,11/15/2025 14:38,11/15/2025,11/15/2025 19:38,11/17/2025 20:14,Physical Security Event,Medium,IT,Server Room,User Report,Closed,R-13
+INC-0046,11/17/2025 16:37,11/17/2025,11/18/2025 7:46,11/21/2025 17:12,Phishing Email,Low,Warehouse Operations,Email Account,User Report,Closed,R-03
+INC-0047,11/18/2025 14:15,11/18/2025,11/19/2025 11:07,11/21/2025 13:18,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,User Report,Closed,R-11
+INC-0048,11/18/2025 17:16,11/18/2025,11/19/2025 10:54,12/2/2025 21:52,Phishing Email,Low,Executive,Email Account,SIEM Alert,Closed,R-03
+INC-0049,11/19/2025 13:40,11/19/2025,11/19/2025 18:58,11/26/2025 13:27,Data Exposure,Medium,Dispatch,Cloud Application,Access Review,Closed,R-10
+INC-0050,11/20/2025 15:15,11/20/2025,11/20/2025 20:25,11/25/2025 15:36,Credential Stuffing / Failed Logins,Medium,Sales,Email Account,Identity Provider Log,Closed,R-03
+INC-0051,11/21/2025 16:32,11/21/2025,11/22/2025 7:47,11/23/2025 20:21,Vendor / Third-Party Issue,Medium,Warehouse Operations,Partner Connection,Vendor Notice,Closed,R-12
+INC-0052,11/22/2025 9:10,11/22/2025,11/22/2025 13:05,12/11/2025 12:53,Data Exposure,Medium,Dispatch,File Server,Access Review,Closed,R-10
+INC-0053,11/22/2025 15:03,11/22/2025,11/22/2025 19:10,11/27/2025 16:05,Phishing Email,Medium,Executive,Laptop,Email Gateway,Closed,R-03
+INC-0054,11/23/2025 10:48,11/23/2025,11/23/2025 21:33,11/29/2025 5:01,Data Exposure,Medium,Warehouse Operations,File Server,User Report,Closed,R-10
+INC-0055,11/23/2025 17:52,11/23/2025,11/24/2025 4:26,11/24/2025 21:36,Phishing Email,Medium,Customer Service,Email Account,User Report,Closed,R-03
+INC-0056,11/24/2025 16:00,11/24/2025,11/26/2025 13:44,12/8/2025 0:46,Physical Security Event,Low,IT,Server Room,User Report,Closed,R-13
+INC-0057,11/27/2025 9:15,11/27/2025,11/27/2025 18:32,12/13/2025 12:40,Unauthorized Access,Low,Dispatch,Cloud Application,User Report,Closed,R-05
+INC-0058,11/27/2025 20:29,11/27/2025,11/28/2025 0:07,12/4/2025 3:35,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,User Report,Closed,R-11
+INC-0059,12/3/2025 13:29,12/3/2025,12/3/2025 13:41,12/4/2025 6:28,Data Exposure,Critical,Warehouse Operations,Cloud Application,User Report,Closed,R-10
+INC-0060,12/3/2025 14:59,12/3/2025,12/3/2025 20:36,12/7/2025 3:23,Phishing Email,Medium,Warehouse Operations,Email Account,Email Gateway,Closed,R-03
+INC-0061,12/4/2025 11:15,12/4/2025,12/4/2025 11:35,12/6/2025 3:52,Malware / Suspicious File,High,Sales,Laptop,Endpoint Protection,Closed,R-11
+INC-0062,12/4/2025 20:26,12/4/2025,12/5/2025 4:58,12/17/2025 11:56,Credential Stuffing / Failed Logins,Low,Customer Service,Email Account,Identity Provider Log,Closed,R-03
+INC-0063,12/6/2025 13:35,12/6/2025,12/6/2025 19:33,12/10/2025 10:46,Phishing Email,Medium,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0064,12/7/2025 17:53,12/7/2025,12/7/2025 22:43,12/8/2025 16:54,Phishing Email,High,Sales,Laptop,SIEM Alert,Closed,R-03
+INC-0065,12/8/2025 14:25,12/8/2025,12/8/2025 20:05,12/9/2025 23:35,Vendor / Third-Party Issue,Medium,Warehouse Operations,Cloud Application,Vendor Notice,Closed,R-12
+INC-0066,12/9/2025 10:55,12/9/2025,12/9/2025 22:38,12/12/2025 19:43,Malware / Suspicious File,Medium,Sales,Laptop,User Report,Closed,R-11
+INC-0067,12/10/2025 2:20,12/10/2025,12/10/2025 11:30,12/13/2025 15:53,Lost or Stolen Device,Medium,Facilities,Scanner,User Report,Closed,R-09
+INC-0068,12/11/2025 9:51,12/11/2025,12/11/2025 12:36,12/15/2025 23:51,Phishing Email,Medium,Dispatch,Laptop,SIEM Alert,Closed,R-03
+INC-0069,12/14/2025 20:08,12/14/2025,12/15/2025 9:07,12/20/2025 10:48,Policy Violation,Low,Facilities,Email Account,User Report,Closed,R-14
+INC-0070,12/17/2025 11:24,12/17/2025,12/20/2025 10:53,12/24/2025 10:11,Malware / Suspicious File,Low,Customer Service,Laptop,Endpoint Protection,Closed,R-11
+INC-0071,12/17/2025 20:21,12/17/2025,12/18/2025 4:52,12/21/2025 17:42,Phishing Email,Medium,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0072,12/19/2025 7:22,12/19/2025,12/19/2025 10:58,12/21/2025 0:49,Data Exposure,High,Warehouse Operations,File Server,User Report,Closed,R-10
+INC-0073,12/19/2025 9:28,12/19/2025,12/20/2025 9:58,1/11/2026 21:11,Phishing Email,Low,Finance,Laptop,User Report,Closed,R-03
+INC-0074,12/20/2025 11:30,12/20/2025,12/21/2025 1:51,12/23/2025 13:19,Phishing Email,Low,Dispatch,Laptop,SIEM Alert,Closed,R-03
+INC-0075,12/21/2025 7:59,12/21/2025,12/21/2025 11:35,12/23/2025 16:03,Malware / Suspicious File,High,Finance,Laptop,User Report,Closed,R-11
+INC-0076,12/22/2025 13:07,12/22/2025,12/22/2025 19:21,12/24/2025 21:16,Remote Access Attempt,Medium,Dispatch,File Server,Firewall Log,Closed,R-01
+INC-0077,12/26/2025 8:54,12/26/2025,12/26/2025 20:28,1/14/2026 5:14,Phishing Email,Low,IT,Laptop,User Report,Closed,R-03
+INC-0078,12/26/2025 14:55,12/26/2025,12/27/2025 4:20,12/29/2025 21:58,Vendor / Third-Party Issue,Low,Warehouse Operations,Partner Connection,Vendor Notice,Closed,R-12
+INC-0079,12/27/2025 10:31,12/27/2025,12/27/2025 12:07,12/29/2025 1:21,Malware / Suspicious File,High,Sales,Laptop,User Report,Closed,R-11
+INC-0080,12/28/2025 10:01,12/28/2025,12/28/2025 13:51,1/1/2026 13:54,Credential Stuffing / Failed Logins,Low,Dispatch,Cloud Application,SIEM Alert,Closed,R-03
+INC-0081,12/28/2025 10:26,12/28/2025,12/28/2025 13:18,12/30/2025 14:16,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0082,12/29/2025 9:19,12/29/2025,12/30/2025 3:37,1/1/2026 14:14,Phishing Email,Low,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0083,12/29/2025 14:56,12/29/2025,12/29/2025 17:42,1/7/2026 23:16,Phishing Email,Medium,IT,Laptop,User Report,Closed,R-03
+INC-0084,12/31/2025 9:24,12/31/2025,1/1/2026 10:35,1/10/2026 4:38,Malware / Suspicious File,Low,Customer Service,Workstation,User Report,Closed,R-11
+INC-0085,1/2/2026 10:33,1/2/2026,1/4/2026 5:15,1/15/2026 2:52,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0086,1/5/2026 10:40,1/5/2026,1/7/2026 5:21,1/14/2026 22:34,Policy Violation,Low,Warehouse Operations,Email Account,Access Review,Closed,R-14
+INC-0087,1/8/2026 7:58,1/8/2026,1/8/2026 9:06,1/13/2026 0:10,Credential Stuffing / Failed Logins,High,Executive,Email Account,Identity Provider Log,Closed,R-03
+INC-0088,1/8/2026 9:21,1/8/2026,1/8/2026 13:17,1/13/2026 8:04,Unauthorized Access,Medium,Warehouse Operations,Warehouse System,Access Review,Closed,R-05
+INC-0089,1/8/2026 17:56,1/8/2026,1/8/2026 18:24,1/9/2026 3:58,Data Exposure,Critical,Unknown,File Server,Access Review,Closed,R-10
+INC-0090,1/10/2026 11:15,1/10/2026,1/10/2026 13:34,1/11/2026 18:40,Vendor / Third-Party Issue,High,Warehouse Operations,Cloud Application,Vendor Notice,Closed,R-12
+INC-0091,1/10/2026 15:26,1/10/2026,1/10/2026 21:00,1/24/2026 1:14,Lost or Stolen Device,Medium,Sales,Laptop,User Report,Closed,R-09
+INC-0092,1/11/2026 17:51,1/11/2026,1/11/2026 20:25,1/15/2026 5:55,Vendor / Third-Party Issue,Medium,Warehouse Operations,Cloud Application,Vendor Notice,Closed,R-12
+INC-0093,1/12/2026 11:48,1/12/2026,1/13/2026 2:49,1/19/2026 4:49,Credential Stuffing / Failed Logins,Low,Customer Service,Email Account,Identity Provider Log,Closed,R-03
+INC-0094,1/13/2026 2:23,1/13/2026,1/14/2026 22:25,1/24/2026 17:55,Malware / Suspicious File,Low,Sales,Workstation,User Report,Closed,R-11
+INC-0095,1/13/2026 10:58,1/13/2026,1/14/2026 14:05,1/15/2026 8:08,Data Exposure,Medium,Sales,Cloud Application,Access Review,Closed,R-10
+INC-0096,1/15/2026 15:24,1/15/2026,1/16/2026 1:54,1/18/2026 1:48,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0097,1/16/2026 7:49,1/16/2026,1/16/2026 20:51,1/28/2026 19:48,Unauthorized Access,Low,Finance,Warehouse System,User Report,Closed,R-05
+INC-0098,1/17/2026 13:22,1/17/2026,1/17/2026 19:00,1/19/2026 1:03,Phishing Email,Low,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0099,1/18/2026 15:16,1/18/2026,1/19/2026 5:55,1/28/2026 11:42,Malware / Suspicious File,Low,Dispatch,Workstation,User Report,Closed,R-11
+INC-0100,1/21/2026 2:20,1/21/2026,1/21/2026 4:35,1/24/2026 13:33,System Outage / Failure,Medium,Dispatch,Warehouse System,Monitoring Alert,Closed,R-02
+INC-0101,1/21/2026 15:03,1/21/2026,1/21/2026 19:34,1/24/2026 15:13,Unauthorized Access,Medium,Facilities,Warehouse System,User Report,Closed,R-05
+INC-0102,1/21/2026 16:56,1/21/2026,1/21/2026 19:23,1/24/2026 3:57,Malware / Suspicious File,High,Warehouse Operations,Workstation,User Report,Closed,R-11
+INC-0103,1/22/2026 10:58,1/22/2026,1/22/2026 20:28,1/26/2026 1:12,Remote Access Attempt,Medium,Warehouse Operations,File Server,Firewall Log,Closed,R-01
+INC-0104,1/23/2026 7:33,1/23/2026,1/23/2026 18:18,1/25/2026 10:03,Unauthorized Access,Medium,Warehouse Operations,Warehouse System,Access Review,Closed,R-05
+INC-0105,1/23/2026 13:59,1/23/2026,1/24/2026 2:16,1/29/2026 4:50,Credential Stuffing / Failed Logins,Medium,Customer Service,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0106,1/23/2026 14:33,1/23/2026,1/24/2026 0:31,1/25/2026 20:53,Malware / Suspicious File,Low,Warehouse Operations,Workstation,Endpoint Protection,Closed,R-11
+INC-0107,1/24/2026 11:02,1/24/2026,1/24/2026 14:03,1/27/2026 15:21,System Outage / Failure,High,Customer Service,File Server,Monitoring Alert,Closed,R-02
+INC-0108,1/25/2026 8:26,1/25/2026,1/25/2026 17:43,1/28/2026 1:10,Unauthorized Access,Medium,HR,Warehouse System,User Report,Closed,R-05
+INC-0109,1/26/2026 7:18,1/26/2026,1/26/2026 15:58,1/28/2026 7:14,Malware / Suspicious File,Medium,Executive,Workstation,Endpoint Protection,Closed,R-11
+INC-0110,1/26/2026 13:00,1/26/2026,1/26/2026 15:02,1/31/2026 9:17,Lost or Stolen Device,High,Warehouse Operations,Laptop,User Report,Closed,R-09
+INC-0111,1/26/2026 17:18,1/26/2026,1/27/2026 6:41,2/1/2026 4:49,Phishing Email,Low,Facilities,Laptop,SIEM Alert,Closed,R-03
+INC-0112,1/28/2026 9:10,1/28/2026,1/28/2026 10:15,1/31/2026 7:03,Remote Access Attempt,High,HR,Network Device,SIEM Alert,Closed,R-01
+INC-0113,1/28/2026 10:07,1/28/2026,1/28/2026 12:02,1/29/2026 20:05,Phishing Email,High,Facilities,Laptop,SIEM Alert,Closed,R-03
+INC-0114,1/29/2026 20:45,1/29/2026,1/29/2026 23:46,1/31/2026 7:25,Phishing Email,Medium,Dispatch,Laptop,User Report,Closed,R-03
+INC-0115,1/31/2026 10:30,1/31/2026,1/31/2026 12:16,2/5/2026 22:30,Phishing Email,Medium,Warehouse Operations,Email Account,User Report,Closed,R-03
+INC-0116,1/31/2026 17:58,1/31/2026,2/1/2026 2:56,2/21/2026 18:22,Phishing Email,Low,Customer Service,Email Account,Email Gateway,Closed,R-03
+INC-0117,2/1/2026 2:04,2/1/2026,2/1/2026 8:17,2/13/2026 17:34,Vendor / Third-Party Issue,Low,Warehouse Operations,Partner Connection,Vendor Notice,Closed,R-12
+INC-0118,2/1/2026 9:08,2/1/2026,2/1/2026 12:29,2/8/2026 1:28,Phishing Email,Medium,Sales,Laptop,Email Gateway,Closed,R-03
+INC-0119,2/1/2026 10:45,2/1/2026,2/1/2026 13:56,2/11/2026 13:19,Phishing Email,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0120,2/1/2026 20:56,2/1/2026,2/2/2026 7:13,2/6/2026 1:51,Phishing Email,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0121,2/2/2026 8:36,2/2/2026,2/2/2026 10:29,2/6/2026 21:03,Policy Violation,Low,Dispatch,Email Account,User Report,Closed,R-14
+INC-0122,2/2/2026 8:56,2/2/2026,2/3/2026 1:43,2/15/2026 23:21,Data Exposure,Medium,Customer Service,Cloud Application,User Report,Closed,R-10
+INC-0123,2/2/2026 10:48,2/2/2026,2/2/2026 20:36,2/6/2026 6:12,Data Exposure,Medium,Sales,Cloud Application,Access Review,Closed,R-10
+INC-0124,2/2/2026 15:40,2/2/2026,2/2/2026 22:06,2/6/2026 8:54,Phishing Email,Medium,Customer Service,Laptop,Email Gateway,Closed,R-03
+INC-0125,2/2/2026 16:32,2/2/2026,2/2/2026 19:56,2/10/2026 19:59,Policy Violation,Low,Warehouse Operations,Workstation,Access Review,Closed,R-14
+INC-0126,2/2/2026 20:13,2/2/2026,2/3/2026 0:22,2/10/2026 18:50,Credential Stuffing / Failed Logins,Medium,Finance,Email Account,SIEM Alert,Closed,R-03
+INC-0127,2/7/2026 7:00,2/7/2026,2/7/2026 16:37,2/21/2026 13:32,Vendor / Third-Party Issue,Low,Dispatch,Partner Connection,Vendor Notice,Closed,R-12
+INC-0128,2/7/2026 8:24,2/7/2026,2/7/2026 11:35,2/11/2026 4:57,Lost or Stolen Device,Medium,Warehouse Operations,Laptop,User Report,Closed,R-09
+INC-0129,2/8/2026 13:11,2/8/2026,2/8/2026 18:27,2/11/2026 14:23,Data Exposure,Low,Facilities,File Server,User Report,Closed,R-10
+INC-0130,2/10/2026 20:25,2/10/2026,2/12/2026 4:39,2/22/2026 5:38,Phishing Email,Low,Customer Service,Laptop,Email Gateway,Closed,R-03
+INC-0131,2/11/2026 17:48,2/11/2026,2/12/2026 4:11,3/2/2026 8:18,Data Exposure,Medium,Warehouse Operations,File Server,Access Review,Closed,R-10
+INC-0132,2/12/2026 13:00,2/12/2026,2/12/2026 19:33,2/15/2026 2:14,Phishing Email,Medium,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0133,2/13/2026 10:05,2/13/2026,2/13/2026 15:12,2/14/2026 12:02,Phishing Email,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0134,2/13/2026 10:31,2/13/2026,2/14/2026 2:01,2/17/2026 8:26,Credential Stuffing / Failed Logins,Low,Dispatch,Email Account,Identity Provider Log,Closed,R-03
+INC-0135,2/13/2026 11:02,2/13/2026,2/13/2026 19:21,2/17/2026 13:27,Phishing Email,Medium,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0136,2/15/2026 15:10,2/15/2026,2/15/2026 16:56,2/17/2026 10:47,Unauthorized Access,High,Dispatch,Warehouse System,User Report,Closed,R-05
+INC-0137,2/16/2026 15:46,2/16/2026,2/16/2026 19:22,2/19/2026 4:12,Phishing Email,Low,Finance,Email Account,Email Gateway,Closed,R-03
+INC-0138,2/16/2026 16:55,2/16/2026,2/16/2026 19:32,2/17/2026 17:39,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Email Account,Identity Provider Log,Closed,R-03
+INC-0139,2/17/2026 9:49,2/17/2026,2/19/2026 20:28,3/1/2026 12:57,Credential Stuffing / Failed Logins,Low,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0140,2/18/2026 13:00,2/18/2026,2/18/2026 14:58,2/20/2026 10:41,System Outage / Failure,High,IT,Warehouse System,Monitoring Alert,Closed,R-02
+INC-0141,2/19/2026 7:55,2/19/2026,2/19/2026 15:07,2/27/2026 16:00,System Outage / Failure,Medium,Sales,Warehouse System,User Report,Closed,R-02
+INC-0142,2/19/2026 14:38,2/19/2026,2/20/2026 15:37,2/25/2026 22:27,Phishing Email,Low,Customer Service,Laptop,Email Gateway,Closed,R-03
+INC-0143,2/22/2026 9:16,2/22/2026,2/22/2026 15:40,3/1/2026 20:35,Credential Stuffing / Failed Logins,Low,IT,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0144,2/22/2026 11:30,2/22/2026,2/22/2026 12:33,2/23/2026 4:42,System Outage / Failure,Critical,Dispatch,Warehouse System,User Report,Closed,R-02
+INC-0145,2/22/2026 17:10,2/22/2026,2/22/2026 19:28,2/24/2026 12:45,Vendor / Third-Party Issue,High,IT,Cloud Application,Vendor Notice,Closed,R-12
+INC-0146,2/23/2026 9:45,2/23/2026,2/23/2026 17:57,2/24/2026 3:12,Phishing Email,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0147,2/24/2026 9:11,2/24/2026,2/24/2026 10:53,2/28/2026 16:13,Data Exposure,High,Sales,Cloud Application,Access Review,Closed,R-10
+INC-0148,2/25/2026 13:04,2/25/2026,2/25/2026 14:13,2/26/2026 13:23,Unauthorized Access,High,Dispatch,Cloud Application,User Report,Closed,R-05
+INC-0149,2/26/2026 2:33,2/26/2026,2/26/2026 6:31,2/27/2026 8:09,Phishing Email,Medium,Warehouse Operations,Email Account,User Report,Closed,R-03
+INC-0150,2/26/2026 9:17,2/26/2026,2/26/2026 14:06,2/28/2026 3:47,Unauthorized Access,High,Sales,Warehouse System,Access Review,Closed,R-05
+INC-0151,2/26/2026 11:39,2/26/2026,2/26/2026 13:36,2/28/2026 21:19,Policy Violation,Medium,Finance,Workstation,User Report,Closed,R-14
+INC-0152,2/26/2026 14:29,2/26/2026,2/26/2026 17:13,3/1/2026 14:57,Credential Stuffing / Failed Logins,High,Customer Service,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0153,2/28/2026 9:24,2/28/2026,3/1/2026 22:58,3/2/2026 2:33,Unauthorized Access,Low,Facilities,Cloud Application,User Report,Closed,R-05
+INC-0154,2/28/2026 13:29,2/28/2026,2/28/2026 15:12,3/7/2026 21:03,Malware / Suspicious File,Medium,Warehouse Operations,Workstation,User Report,Closed,R-11
+INC-0155,3/1/2026 16:47,3/1/2026,3/2/2026 21:01,3/5/2026 7:06,Policy Violation,Low,Warehouse Operations,Email Account,User Report,Closed,R-14
+INC-0156,3/1/2026 17:23,3/1/2026,3/1/2026 20:19,3/5/2026 18:33,Credential Stuffing / Failed Logins,Medium,Customer Service,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0157,3/1/2026 20:46,3/1/2026,3/2/2026 2:20,3/2/2026 14:10,Phishing Email,High,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0158,3/2/2026 10:33,3/2/2026,3/2/2026 11:38,3/12/2026 8:00,Lost or Stolen Device,Medium,Dispatch,Laptop,User Report,Closed,R-09
+INC-0159,3/3/2026 9:55,3/3/2026,3/4/2026 0:32,3/5/2026 5:38,Unauthorized Access,Medium,Sales,Cloud Application,User Report,Closed,R-05
+INC-0160,3/3/2026 10:14,3/3/2026,3/3/2026 14:39,3/5/2026 8:24,Credential Stuffing / Failed Logins,High,Warehouse Operations,Cloud Application,SIEM Alert,Closed,R-03
+INC-0161,3/3/2026 13:02,3/3/2026,3/3/2026 17:08,3/5/2026 2:43,Policy Violation,High,Sales,Email Account,User Report,Closed,R-14
+INC-0162,3/3/2026 15:57,3/3/2026,3/4/2026 5:00,3/7/2026 14:25,Phishing Email,Medium,Sales,Email Account,SIEM Alert,Closed,R-03
+INC-0163,3/5/2026 10:29,3/5/2026,3/5/2026 13:19,3/6/2026 12:19,Phishing Email,High,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0164,3/5/2026 20:57,3/5/2026,3/7/2026 0:26,3/11/2026 22:24,Physical Security Event,Low,Sales,Server Room,User Report,Closed,R-13
+INC-0165,3/6/2026 11:41,3/6/2026,3/6/2026 15:51,3/11/2026 23:20,Phishing Email,Medium,Sales,Email Account,Email Gateway,Closed,R-03
+INC-0166,3/7/2026 2:17,3/7/2026,3/7/2026 5:14,3/8/2026 5:21,Lost or Stolen Device,High,Dispatch,Laptop,User Report,Closed,R-09
+INC-0167,3/8/2026 9:41,3/8/2026,3/8/2026 14:00,3/11/2026 10:45,Phishing Email,Medium,Facilities,Laptop,SIEM Alert,Closed,R-03
+INC-0168,3/9/2026 9:00,3/9/2026,3/9/2026 19:13,3/20/2026 17:34,Phishing Email,Medium,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0169,3/10/2026 9:52,3/10/2026,3/10/2026 13:18,3/11/2026 21:52,Vendor / Third-Party Issue,Medium,Customer Service,Cloud Application,Vendor Notice,Closed,R-12
+INC-0170,3/10/2026 10:44,3/10/2026,3/11/2026 12:18,3/13/2026 12:00,Credential Stuffing / Failed Logins,Medium,Finance,Email Account,SIEM Alert,Closed,R-03
+INC-0171,3/10/2026 13:30,3/10/2026,3/11/2026 7:33,3/14/2026 9:47,Credential Stuffing / Failed Logins,Low,Unknown,Email Account,Identity Provider Log,Closed,R-03
+INC-0172,3/11/2026 14:15,3/11/2026,3/11/2026 21:10,3/14/2026 19:38,Phishing Email,Medium,Facilities,Laptop,Email Gateway,Closed,R-03
+INC-0173,3/12/2026 9:55,3/12/2026,3/14/2026 0:24,3/16/2026 11:33,Phishing Email,Low,Dispatch,Laptop,SIEM Alert,Closed,R-03
+INC-0174,3/12/2026 17:37,3/12/2026,3/12/2026 21:02,3/16/2026 7:04,Malware / Suspicious File,High,Dispatch,Workstation,User Report,Closed,R-11
+INC-0175,3/12/2026 17:42,3/12/2026,3/12/2026 17:57,3/13/2026 15:04,System Outage / Failure,Critical,HR,Warehouse System,Monitoring Alert,Closed,R-02
+INC-0176,3/13/2026 13:24,3/13/2026,3/13/2026 23:33,3/19/2026 4:35,Phishing Email,Low,Finance,Laptop,User Report,Closed,R-03
+INC-0177,3/13/2026 15:57,3/13/2026,3/14/2026 0:38,3/14/2026 6:55,Phishing Email,High,Finance,Email Account,User Report,Closed,R-03
+INC-0178,3/14/2026 7:23,3/14/2026,3/15/2026 17:23,3/25/2026 11:58,Physical Security Event,Low,HR,Server Room,User Report,Closed,R-13
+INC-0179,3/14/2026 17:13,3/14/2026,3/14/2026 18:28,3/16/2026 12:31,System Outage / Failure,High,Finance,File Server,Monitoring Alert,Closed,R-02
+INC-0180,3/16/2026 14:21,3/16/2026,3/16/2026 17:35,3/17/2026 7:04,Phishing Email,Medium,Customer Service,Laptop,Email Gateway,Closed,R-03
+INC-0181,3/17/2026 13:32,3/17/2026,3/17/2026 16:31,3/18/2026 17:43,Data Exposure,Medium,Finance,Cloud Application,User Report,Closed,R-10
+INC-0182,3/18/2026 16:32,3/18/2026,3/19/2026 18:55,3/19/2026 19:25,Policy Violation,Medium,Dispatch,Workstation,Access Review,Closed,R-14
+INC-0183,3/19/2026 11:44,3/19/2026,3/19/2026 12:14,3/20/2026 8:23,Phishing Email,Critical,Dispatch,Laptop,SIEM Alert,Closed,R-03
+INC-0184,3/19/2026 16:54,3/19/2026,3/20/2026 3:34,3/24/2026 10:15,Physical Security Event,Low,Customer Service,Server Room,User Report,Closed,R-13
+INC-0185,3/23/2026 8:31,3/23/2026,3/24/2026 2:38,3/27/2026 23:40,Phishing Email,Low,IT,Laptop,SIEM Alert,Closed,R-03
+INC-0186,3/23/2026 9:29,3/23/2026,3/23/2026 12:20,3/27/2026 7:59,Lost or Stolen Device,Medium,Executive,Scanner,User Report,Closed,R-09
+INC-0187,3/24/2026 7:28,3/24/2026,3/24/2026 10:04,3/25/2026 19:09,Data Exposure,High,Dispatch,File Server,User Report,Closed,R-10
+INC-0188,3/26/2026 2:44,3/26/2026,3/26/2026 6:07,4/3/2026 19:59,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,Endpoint Protection,Closed,R-11
+INC-0189,3/26/2026 13:23,3/26/2026,3/26/2026 16:02,3/28/2026 7:14,Policy Violation,Low,IT,Email Account,Access Review,Closed,R-14
+INC-0190,3/26/2026 16:35,3/26/2026,3/26/2026 16:44,3/27/2026 14:14,Unauthorized Access,Critical,Warehouse Operations,Warehouse System,User Report,Closed,R-05
+INC-0191,3/26/2026 20:44,3/26/2026,3/27/2026 15:20,3/29/2026 2:07,Phishing Email,Medium,Warehouse Operations,Email Account,Email Gateway,Closed,R-03
+INC-0192,3/27/2026 9:00,3/27/2026,3/27/2026 19:08,4/2/2026 21:03,Policy Violation,Low,Warehouse Operations,Email Account,User Report,Closed,R-14
+INC-0193,3/27/2026 10:20,3/27/2026,3/27/2026 18:09,3/30/2026 3:21,Phishing Email,Low,IT,Laptop,Email Gateway,Closed,R-03
+INC-0194,3/29/2026 9:26,3/29/2026,3/30/2026 1:58,4/5/2026 12:53,Credential Stuffing / Failed Logins,Low,IT,Email Account,SIEM Alert,Closed,R-03
+INC-0195,3/30/2026 8:29,3/30/2026,3/31/2026 0:18,4/3/2026 18:18,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0196,3/30/2026 10:20,3/30/2026,3/30/2026 14:21,4/1/2026 5:01,Phishing Email,Medium,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0197,3/30/2026 11:47,3/30/2026,3/30/2026 16:04,3/31/2026 20:56,Phishing Email,High,Dispatch,Laptop,Email Gateway,Closed,R-03
+INC-0198,3/31/2026 10:51,3/31/2026,3/31/2026 13:03,4/2/2026 5:32,Remote Access Attempt,High,Sales,File Server,Firewall Log,Closed,R-01
+INC-0199,4/2/2026 7:05,4/2/2026,4/2/2026 11:03,4/5/2026 18:01,Phishing Email,Low,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0200,4/2/2026 8:57,4/2/2026,4/2/2026 10:39,4/5/2026 16:24,Credential Stuffing / Failed Logins,High,Dispatch,Cloud Application,SIEM Alert,Closed,R-03
+INC-0201,4/2/2026 9:36,4/2/2026,4/2/2026 17:01,4/4/2026 0:21,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0202,4/2/2026 10:30,4/2/2026,4/2/2026 15:54,4/4/2026 6:16,Phishing Email,Medium,Dispatch,Laptop,SIEM Alert,Closed,R-03
+INC-0203,4/2/2026 11:54,4/2/2026,4/7/2026 9:39,4/7/2026 13:39,Credential Stuffing / Failed Logins,Low,Sales,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0204,4/3/2026 2:16,4/3/2026,4/3/2026 8:03,4/11/2026 20:39,Remote Access Attempt,Medium,Warehouse Operations,Network Device,Firewall Log,Closed,R-01
+INC-0205,4/3/2026 7:16,4/3/2026,4/3/2026 7:52,4/3/2026 17:01,System Outage / Failure,Critical,Dispatch,Warehouse System,Monitoring Alert,Closed,R-02
+INC-0206,4/3/2026 10:26,4/3/2026,4/3/2026 12:32,4/5/2026 3:56,Unauthorized Access,High,HR,Warehouse System,User Report,Closed,R-05
+INC-0207,4/3/2026 20:28,4/3/2026,4/4/2026 21:46,4/11/2026 13:06,Phishing Email,Low,Finance,Email Account,SIEM Alert,Closed,R-03
+INC-0208,4/4/2026 13:36,4/4/2026,4/4/2026 17:41,4/7/2026 0:17,Remote Access Attempt,Medium,Sales,File Server,Firewall Log,Closed,R-01
+INC-0209,4/5/2026 10:22,4/5/2026,4/5/2026 16:17,4/6/2026 6:21,Remote Access Attempt,High,Executive,Network Device,Firewall Log,Closed,R-01
+INC-0210,4/5/2026 14:40,4/5/2026,4/5/2026 19:30,4/8/2026 18:52,Credential Stuffing / Failed Logins,Medium,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0211,4/6/2026 8:36,4/6/2026,4/6/2026 20:20,4/24/2026 5:25,Phishing Email,Low,Dispatch,Email Account,User Report,Closed,R-03
+INC-0212,4/7/2026 9:02,4/7/2026,4/8/2026 7:47,4/10/2026 5:27,Malware / Suspicious File,Low,Warehouse Operations,Workstation,User Report,Closed,R-11
+INC-0213,4/7/2026 15:01,4/7/2026,4/7/2026 22:58,4/10/2026 17:25,Phishing Email,Low,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0214,4/10/2026 11:33,4/10/2026,4/11/2026 0:38,4/15/2026 12:19,Phishing Email,Low,Finance,Laptop,Email Gateway,Closed,R-03
+INC-0215,4/11/2026 9:03,4/11/2026,4/11/2026 16:13,4/13/2026 12:00,Physical Security Event,Medium,Sales,Server Room,User Report,Closed,R-13
+INC-0216,4/11/2026 10:58,4/11/2026,4/12/2026 6:39,4/15/2026 20:42,Phishing Email,Low,Warehouse Operations,Email Account,User Report,Closed,R-03
+INC-0217,4/11/2026 11:09,4/11/2026,4/11/2026 15:52,4/12/2026 17:40,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0218,4/12/2026 17:13,4/12/2026,4/12/2026 23:03,4/14/2026 16:42,Lost or Stolen Device,Medium,Warehouse Operations,Scanner,User Report,Closed,R-09
+INC-0219,4/13/2026 11:39,4/13/2026,4/13/2026 15:32,4/17/2026 13:32,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0220,4/14/2026 20:38,4/14/2026,4/15/2026 1:07,4/21/2026 0:25,Malware / Suspicious File,Medium,Customer Service,Workstation,User Report,Closed,R-11
+INC-0221,4/16/2026 20:27,4/16/2026,4/16/2026 23:28,4/21/2026 7:52,Phishing Email,High,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0222,4/17/2026 20:12,4/17/2026,4/18/2026 3:18,4/19/2026 15:40,Unauthorized Access,Medium,HR,Warehouse System,User Report,Closed,R-05
+INC-0223,4/19/2026 14:43,4/19/2026,4/19/2026 18:42,4/21/2026 11:43,Remote Access Attempt,High,Customer Service,Network Device,SIEM Alert,Closed,R-01
+INC-0224,4/21/2026 10:59,4/21/2026,4/21/2026 19:39,5/10/2026 0:07,Phishing Email,Low,Dispatch,Email Account,User Report,Closed,R-03
+INC-0225,4/22/2026 9:23,4/22/2026,4/22/2026 11:31,4/27/2026 16:18,Policy Violation,High,Warehouse Operations,Email Account,Access Review,Closed,R-14
+INC-0226,4/23/2026 11:42,4/23/2026,4/23/2026 15:54,4/28/2026 3:47,Phishing Email,Medium,Customer Service,Email Account,SIEM Alert,Closed,R-03
+INC-0227,4/23/2026 15:04,4/23/2026,4/23/2026 22:57,4/28/2026 21:12,Data Exposure,Medium,IT,Cloud Application,Access Review,Closed,R-10
+INC-0228,4/23/2026 15:31,4/23/2026,4/24/2026 2:43,4/30/2026 9:54,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0229,4/24/2026 13:19,4/24/2026,4/24/2026 15:28,4/27/2026 3:48,Malware / Suspicious File,High,Sales,Workstation,User Report,Closed,R-11
+INC-0230,4/26/2026 14:52,4/26/2026,4/26/2026 19:37,4/29/2026 15:42,Phishing Email,Low,HR,Laptop,Email Gateway,Closed,R-03
+INC-0231,4/26/2026 17:07,4/26/2026,4/26/2026 23:38,4/28/2026 20:01,Vendor / Third-Party Issue,Medium,Sales,Partner Connection,Vendor Notice,Closed,R-12
+INC-0232,4/27/2026 15:06,4/27/2026,4/27/2026 18:01,4/29/2026 2:13,Unauthorized Access,Medium,Warehouse Operations,Cloud Application,User Report,Closed,R-05
+INC-0233,4/27/2026 15:51,4/27/2026,4/27/2026 23:14,5/2/2026 15:24,Phishing Email,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0234,4/30/2026 8:25,4/30/2026,4/30/2026 13:23,5/2/2026 9:31,Vendor / Third-Party Issue,Low,Customer Service,Cloud Application,Vendor Notice,Closed,R-12
+INC-0235,5/1/2026 10:44,5/1/2026,5/2/2026 2:00,5/6/2026 10:58,Data Exposure,Low,Sales,File Server,Access Review,Closed,R-10
+INC-0236,5/2/2026 7:27,5/2/2026,5/2/2026 11:22,5/6/2026 13:49,Lost or Stolen Device,Medium,Dispatch,Scanner,User Report,Closed,R-09
+INC-0237,5/2/2026 9:18,5/2/2026,5/2/2026 13:26,5/4/2026 9:58,Vendor / Third-Party Issue,Medium,Executive,Partner Connection,Vendor Notice,Closed,R-12
+INC-0238,5/2/2026 9:55,5/2/2026,5/2/2026 12:13,5/5/2026 22:12,Unauthorized Access,High,IT,Cloud Application,Access Review,Closed,R-05
+INC-0239,5/2/2026 13:21,5/2/2026,5/2/2026 13:41,5/4/2026 18:53,Lost or Stolen Device,Critical,Finance,Scanner,User Report,Closed,R-09
+INC-0240,5/2/2026 20:43,5/2/2026,5/3/2026 9:58,5/4/2026 10:36,Data Exposure,Medium,Warehouse Operations,Cloud Application,Access Review,Closed,R-10
+INC-0241,5/4/2026 16:32,5/4/2026,5/4/2026 22:56,5/6/2026 0:33,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Cloud Application,SIEM Alert,Closed,R-03
+INC-0242,5/4/2026 16:53,5/4/2026,5/5/2026 7:57,5/14/2026 17:49,Lost or Stolen Device,Low,Warehouse Operations,Scanner,User Report,Closed,R-09
+INC-0243,5/6/2026 15:52,5/6/2026,5/7/2026 3:52,5/8/2026 15:06,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,Endpoint Protection,Closed,R-11
+INC-0244,5/7/2026 17:51,5/7/2026,5/8/2026 6:36,5/18/2026 9:32,Phishing Email,Medium,HR,Laptop,SIEM Alert,Closed,R-03
+INC-0245,5/8/2026 16:46,5/8/2026,5/9/2026 7:52,5/16/2026 14:48,Phishing Email,Low,Finance,Laptop,SIEM Alert,Closed,R-03
+INC-0246,5/8/2026 17:56,5/8/2026,5/9/2026 0:18,5/11/2026 11:01,Data Exposure,High,Sales,Cloud Application,User Report,Closed,R-10
+INC-0247,5/8/2026 20:33,5/8/2026,5/9/2026 3:27,5/15/2026 18:22,Data Exposure,Medium,Dispatch,File Server,User Report,Closed,R-10
+INC-0248,5/9/2026 20:41,5/9/2026,5/9/2026 22:22,5/11/2026 9:37,Remote Access Attempt,Medium,Warehouse Operations,Network Device,SIEM Alert,Closed,R-01
+INC-0249,5/10/2026 14:08,5/10/2026,5/10/2026 20:58,5/15/2026 6:37,Credential Stuffing / Failed Logins,Medium,Customer Service,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0250,5/11/2026 9:35,5/11/2026,5/11/2026 13:01,5/14/2026 7:14,Phishing Email,Medium,Dispatch,Laptop,Email Gateway,Closed,R-03
+INC-0251,5/11/2026 10:21,5/11/2026,5/12/2026 0:59,5/14/2026 0:07,Data Exposure,Low,Finance,File Server,Access Review,Closed,R-10
+INC-0252,5/11/2026 16:31,5/11/2026,5/11/2026 20:36,5/13/2026 1:51,Phishing Email,Medium,Finance,Laptop,User Report,Closed,R-03
+INC-0253,5/11/2026 17:09,5/11/2026,5/11/2026 20:38,5/20/2026 1:40,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0254,5/12/2026 2:09,5/12/2026,5/12/2026 4:42,5/14/2026 1:49,Phishing Email,Medium,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0255,5/13/2026 10:08,5/13/2026,5/13/2026 16:01,5/15/2026 8:50,Phishing Email,Medium,Facilities,Laptop,Email Gateway,Closed,R-03
+INC-0256,5/15/2026 9:07,5/15/2026,5/15/2026 10:43,5/16/2026 5:47,Lost or Stolen Device,High,IT,Scanner,User Report,Closed,R-09
+INC-0257,5/16/2026 8:35,5/16/2026,5/16/2026 11:07,5/20/2026 4:06,Phishing Email,Medium,Sales,Email Account,Email Gateway,Closed,R-03
+INC-0258,5/17/2026 15:39,5/17/2026,5/17/2026 17:54,5/20/2026 10:11,Phishing Email,Medium,Sales,Laptop,User Report,Closed,R-03
+INC-0259,5/19/2026 11:17,5/19/2026,5/19/2026 12:42,5/21/2026 13:58,Malware / Suspicious File,High,Finance,Workstation,User Report,Closed,R-11
+INC-0260,5/19/2026 17:20,5/19/2026,5/20/2026 2:06,5/21/2026 6:54,Credential Stuffing / Failed Logins,Low,Dispatch,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0261,5/23/2026 8:17,5/23/2026,5/23/2026 11:34,5/25/2026 5:19,Phishing Email,Medium,Unknown,Laptop,SIEM Alert,Closed,R-03
+INC-0262,5/25/2026 9:06,5/25/2026,5/25/2026 15:17,6/3/2026 0:37,Phishing Email,Low,Facilities,Email Account,SIEM Alert,Closed,R-03
+INC-0263,5/26/2026 11:59,5/26/2026,5/26/2026 13:47,5/27/2026 12:31,Credential Stuffing / Failed Logins,High,Warehouse Operations,Cloud Application,SIEM Alert,Closed,R-03
+INC-0264,5/28/2026 10:53,5/28/2026,5/30/2026 11:31,6/5/2026 11:23,Vendor / Third-Party Issue,Low,Finance,Cloud Application,Vendor Notice,Closed,R-12
+INC-0265,5/29/2026 10:05,5/29/2026,5/29/2026 12:09,5/31/2026 19:07,Phishing Email,Medium,Sales,Laptop,Email Gateway,Closed,R-03
+INC-0266,5/31/2026 2:07,5/31/2026,5/31/2026 7:27,6/4/2026 12:43,Phishing Email,Medium,IT,Email Account,User Report,Closed,R-03
+INC-0267,5/31/2026 15:17,5/31/2026,5/31/2026 21:25,6/1/2026 1:47,Malware / Suspicious File,Medium,Sales,Laptop,Endpoint Protection,Closed,R-11
+INC-0268,5/31/2026 20:47,5/31/2026,6/1/2026 0:21,6/4/2026 2:58,Unauthorized Access,High,Sales,Warehouse System,User Report,Closed,R-05
+INC-0269,6/1/2026 10:56,6/1/2026,6/1/2026 15:44,6/2/2026 19:22,Malware / Suspicious File,Medium,IT,Workstation,Endpoint Protection,Closed,R-11
+INC-0270,6/4/2026 20:51,6/4/2026,6/5/2026 4:59,6/10/2026 13:29,Policy Violation,Low,Customer Service,Workstation,User Report,Closed,R-14
+INC-0271,6/5/2026 10:15,6/5/2026,6/6/2026 14:07,6/7/2026 14:37,Phishing Email,Low,Warehouse Operations,Email Account,User Report,Closed,R-03
+INC-0272,6/5/2026 11:32,6/5/2026,6/5/2026 16:44,6/10/2026 15:33,Policy Violation,Low,Dispatch,Workstation,Access Review,Closed,R-14
+INC-0273,6/6/2026 17:11,6/6/2026,6/7/2026 0:36,6/10/2026 0:12,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,User Report,Closed,R-11
+INC-0274,6/7/2026 9:00,6/7/2026,6/8/2026 10:37,6/17/2026 23:35,Phishing Email,Low,HR,Laptop,User Report,Closed,R-03
+INC-0275,6/8/2026 13:00,6/8/2026,6/9/2026 12:41,6/10/2026 6:16,Phishing Email,Low,Warehouse Operations,Email Account,Email Gateway,Closed,R-03
+INC-0276,6/10/2026 2:34,6/10/2026,6/10/2026 15:46,6/20/2026 10:31,Policy Violation,Low,Finance,Email Account,Access Review,Closed,R-14
+INC-0277,6/10/2026 7:33,6/10/2026,6/10/2026 22:29,6/30/2026 14:17,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0278,6/10/2026 10:27,6/10/2026,6/11/2026 6:03,6/19/2026 4:20,Phishing Email,Low,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0279,6/11/2026 8:56,6/11/2026,6/11/2026 19:18,6/22/2026 20:44,Remote Access Attempt,Medium,Finance,Network Device,SIEM Alert,Closed,R-01
+INC-0280,6/11/2026 9:53,6/11/2026,6/11/2026 16:08,6/17/2026 6:49,Phishing Email,Medium,Finance,Email Account,User Report,Closed,R-03
+INC-0281,6/11/2026 13:08,6/11/2026,6/12/2026 14:22,6/16/2026 12:39,Phishing Email,Low,Dispatch,Laptop,User Report,Closed,R-03
+INC-0282,6/12/2026 2:03,6/12/2026,6/12/2026 11:42,6/16/2026 12:11,Vendor / Third-Party Issue,Low,Sales,Partner Connection,Vendor Notice,Closed,R-12
+INC-0283,6/12/2026 7:39,6/12/2026,6/12/2026 12:56,6/22/2026 17:04,Remote Access Attempt,High,Warehouse Operations,File Server,SIEM Alert,Closed,R-01
+INC-0284,6/12/2026 9:21,6/12/2026,6/12/2026 18:49,6/18/2026 3:56,Phishing Email,Low,Sales,Laptop,SIEM Alert,Closed,R-03
+INC-0285,6/12/2026 10:39,6/12/2026,6/13/2026 0:57,6/18/2026 5:20,Phishing Email,High,Sales,Email Account,SIEM Alert,Closed,R-03
+INC-0286,6/14/2026 10:57,6/14/2026,6/14/2026 14:03,6/16/2026 4:57,Malware / Suspicious File,Medium,Dispatch,Laptop,User Report,Closed,R-11
+INC-0287,6/15/2026 10:20,6/15/2026,6/15/2026 11:15,6/16/2026 0:51,Vendor / Third-Party Issue,Critical,Customer Service,Cloud Application,Vendor Notice,Closed,R-12
+INC-0288,6/17/2026 10:03,6/17/2026,6/17/2026 14:36,6/19/2026 12:11,Malware / Suspicious File,High,Customer Service,Workstation,Endpoint Protection,Closed,R-11
+INC-0289,6/17/2026 14:36,6/17/2026,6/17/2026 18:09,6/22/2026 7:33,Phishing Email,Low,Facilities,Laptop,Email Gateway,Closed,R-03
+INC-0290,6/18/2026 9:09,6/18/2026,6/18/2026 19:45,6/28/2026 23:56,Phishing Email,Medium,IT,Laptop,SIEM Alert,Closed,R-03
+INC-0291,6/20/2026 9:12,6/20/2026,6/20/2026 20:28,6/22/2026 12:35,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Cloud Application,SIEM Alert,Closed,R-03
+INC-0292,6/21/2026 9:12,6/21/2026,6/21/2026 10:01,6/22/2026 20:10,Phishing Email,High,Facilities,Laptop,User Report,Closed,R-03
+INC-0293,6/22/2026 10:28,6/22/2026,6/22/2026 20:10,6/24/2026 22:22,Data Exposure,Medium,Warehouse Operations,File Server,Access Review,Closed,R-10
+INC-0294,6/22/2026 13:42,6/22/2026,6/23/2026 3:33,6/24/2026 2:53,Physical Security Event,Low,IT,Server Room,User Report,Closed,R-13
+INC-0295,6/22/2026 16:34,6/22/2026,6/22/2026 20:32,6/29/2026 18:54,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,Endpoint Protection,Closed,R-11
+INC-0296,6/22/2026 17:14,6/22/2026,6/22/2026 22:07,6/29/2026 13:54,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0297,6/23/2026 10:24,6/23/2026,6/24/2026 12:09,7/5/2026 8:35,Vendor / Third-Party Issue,Medium,Finance,Partner Connection,Vendor Notice,Closed,R-12
+INC-0298,6/25/2026 13:37,6/25/2026,6/25/2026 17:21,6/28/2026 15:03,Data Exposure,Medium,Facilities,Cloud Application,User Report,Closed,R-10
+INC-0299,6/27/2026 8:57,6/27/2026,6/27/2026 11:17,6/29/2026 20:17,Phishing Email,Medium,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0300,6/27/2026 10:59,6/27/2026,6/27/2026 16:42,7/5/2026 7:39,Vendor / Third-Party Issue,Medium,Customer Service,Partner Connection,Vendor Notice,Closed,R-12
+INC-0301,6/27/2026 20:55,6/27/2026,6/29/2026 20:41,7/23/2026 19:58,Phishing Email,Low,IT,Email Account,User Report,Closed,R-03
+INC-0302,6/28/2026 20:08,6/28/2026,6/29/2026 6:09,7/11/2026 21:29,Policy Violation,Medium,Unknown,Email Account,User Report,Closed,R-14
+INC-0303,6/30/2026 10:32,6/30/2026,7/1/2026 1:36,7/12/2026 6:37,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Email Account,Identity Provider Log,Closed,R-03
+INC-0304,7/4/2026 10:06,7/4/2026,7/4/2026 15:48,7/7/2026 12:29,Malware / Suspicious File,Medium,IT,Workstation,Endpoint Protection,Closed,R-11
+INC-0305,7/6/2026 10:22,7/6/2026,7/7/2026 0:40,7/8/2026 12:49,Phishing Email,Medium,Facilities,Laptop,Email Gateway,Closed,R-03
+INC-0306,7/6/2026 13:29,7/6/2026,7/6/2026 20:07,7/8/2026 21:09,Unauthorized Access,Medium,Sales,Cloud Application,User Report,Closed,R-05
+INC-0307,7/7/2026 8:08,7/7/2026,7/8/2026 4:51,7/18/2026 3:22,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0308,7/7/2026 9:05,7/7/2026,7/7/2026 11:12,7/9/2026 17:09,Phishing Email,Medium,Executive,Laptop,User Report,Closed,R-03
+INC-0309,7/7/2026 10:59,7/7/2026,7/7/2026 21:16,7/10/2026 1:57,Unauthorized Access,Medium,Finance,Warehouse System,Access Review,Closed,R-05
+INC-0310,7/8/2026 2:04,7/8/2026,7/8/2026 4:06,7/14/2026 3:28,Phishing Email,Medium,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0311,7/8/2026 9:21,7/8/2026,7/8/2026 10:59,7/11/2026 15:50,Phishing Email,High,Finance,Laptop,User Report,Closed,R-03
+INC-0312,7/8/2026 10:01,7/8/2026,7/8/2026 16:21,7/11/2026 18:24,Unauthorized Access,Medium,Sales,Warehouse System,Access Review,Closed,R-05
+INC-0313,7/10/2026 10:44,7/10/2026,7/10/2026 21:35,7/14/2026 8:05,Malware / Suspicious File,Medium,Warehouse Operations,Workstation,Endpoint Protection,Closed,R-11
+INC-0314,7/12/2026 2:29,7/12/2026,7/12/2026 4:40,7/14/2026 0:52,Data Exposure,Medium,Dispatch,File Server,Access Review,Closed,R-10
+INC-0315,7/12/2026 10:02,7/12/2026,7/12/2026 20:43,7/13/2026 9:58,Malware / Suspicious File,Low,IT,Laptop,Endpoint Protection,Closed,R-11
+INC-0316,7/12/2026 13:24,7/12/2026,7/13/2026 5:53,8/6/2026 23:18,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Email Account,Identity Provider Log,Closed,R-03
+INC-0317,7/13/2026 13:16,7/13/2026,7/13/2026 15:09,7/16/2026 10:24,Lost or Stolen Device,High,Warehouse Operations,Laptop,User Report,Closed,R-09
+INC-0318,7/14/2026 9:46,7/14/2026,7/14/2026 18:22,7/16/2026 18:17,Phishing Email,Medium,Dispatch,Email Account,Email Gateway,Closed,R-03
+INC-0319,7/14/2026 11:10,7/14/2026,7/15/2026 5:11,7/27/2026 5:56,Policy Violation,Low,Finance,Email Account,User Report,Closed,R-14
+INC-0320,7/14/2026 17:29,7/14/2026,7/14/2026 19:52,7/18/2026 13:31,Phishing Email,Medium,Customer Service,Email Account,Email Gateway,Closed,R-03
+INC-0321,7/18/2026 7:03,7/18/2026,7/18/2026 9:28,7/27/2026 13:16,Lost or Stolen Device,Medium,IT,Laptop,User Report,Closed,R-09
+INC-0322,7/19/2026 20:27,7/19/2026,7/19/2026 23:35,7/28/2026 12:48,Data Exposure,Medium,Customer Service,Cloud Application,Access Review,Closed,R-10
+INC-0323,7/20/2026 20:49,7/20/2026,7/21/2026 6:40,7/27/2026 2:15,Phishing Email,Low,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0324,7/21/2026 9:17,7/21/2026,7/22/2026 5:24,7/30/2026 16:03,Phishing Email,Low,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0325,7/22/2026 2:02,7/22/2026,7/22/2026 3:25,7/22/2026 19:55,Lost or Stolen Device,High,Warehouse Operations,Laptop,User Report,Closed,R-09
+INC-0326,7/22/2026 13:37,7/22/2026,7/22/2026 19:05,7/28/2026 22:19,Remote Access Attempt,Medium,Dispatch,Network Device,Firewall Log,Closed,R-01
+INC-0327,7/24/2026 15:35,7/24/2026,7/24/2026 23:04,7/28/2026 10:52,Remote Access Attempt,Medium,Sales,File Server,Firewall Log,Closed,R-01
+INC-0328,7/27/2026 7:53,7/27/2026,7/28/2026 8:59,8/2/2026 14:01,Unauthorized Access,Low,Finance,Warehouse System,Access Review,Closed,R-05
+INC-0329,7/29/2026 9:12,7/29/2026,7/29/2026 15:00,7/30/2026 21:48,Credential Stuffing / Failed Logins,High,Customer Service,Cloud Application,SIEM Alert,Closed,R-03
+INC-0330,7/29/2026 10:17,7/29/2026,7/29/2026 18:22,8/1/2026 1:32,Credential Stuffing / Failed Logins,Medium,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0331,7/30/2026 2:02,7/30/2026,7/31/2026 2:37,8/2/2026 9:51,Phishing Email,Low,Finance,Laptop,SIEM Alert,Closed,R-03
+INC-0332,7/30/2026 14:18,7/30/2026,7/31/2026 5:43,8/7/2026 13:40,Unauthorized Access,Medium,Warehouse Operations,Warehouse System,Access Review,Closed,R-05
+INC-0333,7/30/2026 17:12,7/30/2026,7/31/2026 2:23,8/2/2026 0:19,Physical Security Event,Low,Sales,Server Room,User Report,Closed,R-13
+INC-0334,7/30/2026 17:35,7/30/2026,7/30/2026 20:44,8/8/2026 1:21,Credential Stuffing / Failed Logins,High,Customer Service,Cloud Application,SIEM Alert,Closed,R-03
+INC-0335,7/31/2026 9:54,7/31/2026,7/31/2026 16:42,8/5/2026 2:18,Vendor / Third-Party Issue,Medium,Customer Service,Cloud Application,Vendor Notice,Closed,R-12
+INC-0336,7/31/2026 16:20,7/31/2026,7/31/2026 23:47,8/5/2026 18:21,Phishing Email,Medium,Facilities,Email Account,Email Gateway,Closed,R-03
+INC-0337,8/1/2026 13:28,8/1/2026,8/1/2026 19:14,8/2/2026 23:41,Phishing Email,Medium,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0338,8/3/2026 13:31,8/3/2026,8/4/2026 2:06,8/12/2026 14:38,Credential Stuffing / Failed Logins,Low,Sales,Cloud Application,SIEM Alert,Closed,R-03
+INC-0339,8/3/2026 14:42,8/3/2026,8/4/2026 23:19,8/5/2026 3:50,Policy Violation,Low,Warehouse Operations,Workstation,Access Review,Closed,R-14
+INC-0340,8/4/2026 10:54,8/4/2026,8/5/2026 0:52,8/7/2026 16:49,Credential Stuffing / Failed Logins,Low,HR,Cloud Application,SIEM Alert,Closed,R-03
+INC-0341,8/5/2026 7:25,8/5/2026,8/5/2026 10:00,8/8/2026 10:49,Malware / Suspicious File,Medium,IT,Workstation,Endpoint Protection,Closed,R-11
+INC-0342,8/6/2026 17:58,8/6/2026,8/6/2026 20:51,8/9/2026 16:15,Policy Violation,Medium,Warehouse Operations,Email Account,User Report,Closed,R-14
+INC-0343,8/7/2026 13:53,8/7/2026,8/7/2026 14:23,8/7/2026 17:54,Phishing Email,Critical,Sales,Laptop,Email Gateway,Closed,R-03
+INC-0344,8/8/2026 13:38,8/8/2026,8/8/2026 21:29,8/10/2026 14:15,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,User Report,Closed,R-11
+INC-0345,8/8/2026 17:54,8/8/2026,8/8/2026 21:13,8/10/2026 0:39,Malware / Suspicious File,High,Dispatch,Workstation,User Report,Closed,R-11
+INC-0346,8/8/2026 20:07,8/8/2026,8/8/2026 21:30,8/9/2026 18:30,Phishing Email,Medium,Sales,Email Account,SIEM Alert,Closed,R-03
+INC-0347,8/8/2026 20:44,8/8/2026,8/9/2026 17:16,8/11/2026 4:57,Phishing Email,Low,Dispatch,Laptop,Email Gateway,Closed,R-03
+INC-0348,8/9/2026 10:40,8/9/2026,8/10/2026 4:11,8/22/2026 5:51,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Email Account,Identity Provider Log,Closed,R-03
+INC-0349,8/9/2026 14:57,8/9/2026,8/10/2026 2:26,8/16/2026 19:49,Physical Security Event,Low,Sales,Server Room,User Report,Closed,R-13
+INC-0350,8/10/2026 9:40,8/10/2026,8/10/2026 12:28,8/11/2026 14:01,Phishing Email,High,HR,Laptop,User Report,Closed,R-03
+INC-0351,8/10/2026 10:50,8/10/2026,8/11/2026 4:38,8/14/2026 12:36,Policy Violation,Low,Warehouse Operations,Email Account,Access Review,Closed,R-14
+INC-0352,8/11/2026 2:17,8/11/2026,8/11/2026 14:01,8/15/2026 18:04,Phishing Email,Low,IT,Email Account,User Report,Closed,R-03
+INC-0353,8/11/2026 14:55,8/11/2026,8/11/2026 17:46,8/14/2026 16:06,Phishing Email,High,Dispatch,Laptop,Email Gateway,Closed,R-03
+INC-0354,8/12/2026 9:29,8/12/2026,8/12/2026 12:57,8/13/2026 20:31,Credential Stuffing / Failed Logins,High,Sales,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0355,8/12/2026 9:37,8/12/2026,8/12/2026 15:48,8/21/2026 6:59,Credential Stuffing / Failed Logins,Low,Customer Service,Cloud Application,SIEM Alert,Closed,R-03
+INC-0356,8/12/2026 10:53,8/12/2026,8/12/2026 12:41,8/14/2026 18:44,Unauthorized Access,High,HR,Warehouse System,User Report,Closed,R-05
+INC-0357,8/12/2026 11:32,8/12/2026,8/12/2026 15:19,8/15/2026 0:27,Phishing Email,Low,Warehouse Operations,Email Account,SIEM Alert,Closed,R-03
+INC-0358,8/13/2026 10:47,8/13/2026,8/13/2026 15:47,8/26/2026 2:38,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,User Report,Closed,R-11
+INC-0359,8/14/2026 11:16,8/14/2026,8/15/2026 6:19,8/20/2026 5:30,Phishing Email,Low,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0360,8/16/2026 13:09,8/16/2026,8/16/2026 15:37,8/20/2026 0:20,Phishing Email,High,Dispatch,Laptop,SIEM Alert,Closed,R-03
+INC-0361,8/16/2026 20:45,8/16/2026,8/17/2026 4:21,9/4/2026 13:22,Remote Access Attempt,Medium,Warehouse Operations,Network Device,SIEM Alert,Closed,R-01
+INC-0362,8/17/2026 11:44,8/17/2026,8/17/2026 15:39,8/21/2026 8:29,Phishing Email,Low,HR,Laptop,Email Gateway,Closed,R-03
+INC-0363,8/17/2026 15:20,8/17/2026,8/18/2026 0:32,8/22/2026 9:32,Lost or Stolen Device,Medium,Finance,Scanner,User Report,Closed,R-09
+INC-0364,8/18/2026 9:45,8/18/2026,8/18/2026 18:00,8/21/2026 12:19,Vendor / Third-Party Issue,Medium,Customer Service,Cloud Application,Vendor Notice,Closed,R-12
+INC-0365,8/20/2026 20:24,8/20/2026,8/21/2026 1:55,9/1/2026 19:49,Physical Security Event,Low,Warehouse Operations,Server Room,User Report,Closed,R-13
+INC-0366,8/21/2026 17:37,8/21/2026,8/22/2026 9:06,8/28/2026 3:52,Phishing Email,Medium,Sales,Email Account,SIEM Alert,Closed,R-03
+INC-0367,8/25/2026 16:12,8/25/2026,8/25/2026 22:12,8/29/2026 4:15,Phishing Email,Low,Sales,Laptop,User Report,Closed,R-03
+INC-0368,8/26/2026 2:21,8/26/2026,8/26/2026 2:33,8/26/2026 18:43,Unauthorized Access,Critical,Sales,Warehouse System,Access Review,Closed,R-05
+INC-0369,8/26/2026 20:43,8/26/2026,8/27/2026 0:27,8/27/2026 18:48,Remote Access Attempt,High,Executive,File Server,Firewall Log,Closed,R-01
+INC-0370,8/28/2026 17:24,8/28/2026,8/28/2026 20:30,9/1/2026 22:20,Credential Stuffing / Failed Logins,Low,Warehouse Operations,Cloud Application,Identity Provider Log,Closed,R-03
+INC-0371,8/28/2026 20:07,8/28/2026,8/28/2026 23:30,8/30/2026 6:58,Remote Access Attempt,Medium,Facilities,File Server,Firewall Log,Closed,R-01
+INC-0372,8/29/2026 16:14,8/29/2026,8/30/2026 1:05,9/1/2026 8:26,Unauthorized Access,Medium,Warehouse Operations,Cloud Application,Access Review,Closed,R-05
+INC-0373,8/30/2026 7:16,8/30/2026,8/31/2026 0:01,9/5/2026 21:01,Phishing Email,Low,Dispatch,Email Account,User Report,Closed,R-03
+INC-0374,8/31/2026 7:54,8/31/2026,9/1/2026 0:16,9/6/2026 17:38,Policy Violation,Low,Warehouse Operations,Workstation,Access Review,Closed,R-14
+INC-0375,9/3/2026 2:41,9/3/2026,9/8/2026 16:47,9/8/2026 17:17,Phishing Email,Low,Finance,Laptop,SIEM Alert,Closed,R-03
+INC-0376,9/3/2026 7:36,9/3/2026,9/3/2026 19:45,9/7/2026 12:59,Phishing Email,Medium,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0377,9/3/2026 11:40,9/3/2026,9/3/2026 12:40,9/4/2026 21:13,Phishing Email,High,IT,Laptop,Email Gateway,Closed,R-03
+INC-0378,9/3/2026 17:15,9/3/2026,9/3/2026 21:55,9/4/2026 21:40,Unauthorized Access,High,Dispatch,Cloud Application,User Report,Closed,R-05
+INC-0379,9/5/2026 10:25,9/5/2026,9/6/2026 4:23,9/9/2026 22:42,Phishing Email,Medium,Finance,Laptop,Email Gateway,Closed,R-03
+INC-0380,9/6/2026 9:59,9/6/2026,9/7/2026 6:43,9/16/2026 19:42,Policy Violation,Low,Sales,Email Account,User Report,Closed,R-14
+INC-0381,9/7/2026 10:32,9/7/2026,9/7/2026 14:08,9/11/2026 3:31,Data Exposure,High,Finance,Cloud Application,Access Review,Closed,R-10
+INC-0382,9/7/2026 11:53,9/7/2026,9/7/2026 21:48,9/11/2026 9:49,Phishing Email,Medium,Dispatch,Email Account,SIEM Alert,Closed,R-03
+INC-0383,9/7/2026 16:40,9/7/2026,9/7/2026 21:35,9/16/2026 16:26,Phishing Email,Low,Executive,Email Account,Email Gateway,Closed,R-03
+INC-0384,9/8/2026 13:21,9/8/2026,9/9/2026 19:14,9/16/2026 0:18,Policy Violation,Low,Warehouse Operations,Email Account,User Report,Closed,R-14
+INC-0385,9/9/2026 20:07,9/9/2026,9/9/2026 23:41,9/15/2026 9:37,Malware / Suspicious File,Medium,Facilities,Laptop,User Report,Closed,R-11
+INC-0386,9/10/2026 2:42,9/10/2026,9/10/2026 9:42,9/14/2026 7:27,Phishing Email,Low,Warehouse Operations,Laptop,Email Gateway,Closed,R-03
+INC-0387,9/10/2026 16:47,9/10/2026,9/11/2026 2:14,9/11/2026 18:49,Remote Access Attempt,Medium,Warehouse Operations,File Server,Firewall Log,Closed,R-01
+INC-0388,9/11/2026 7:15,9/11/2026,9/12/2026 15:51,9/21/2026 3:53,Policy Violation,Low,Warehouse Operations,Email Account,User Report,Closed,R-14
+INC-0389,9/12/2026 11:30,9/12/2026,9/13/2026 5:19,9/18/2026 14:33,Phishing Email,Low,Customer Service,Email Account,SIEM Alert,Closed,R-03
+INC-0390,9/14/2026 10:08,9/14/2026,9/14/2026 15:14,9/16/2026 16:32,Phishing Email,Medium,Warehouse Operations,Laptop,SIEM Alert,Closed,R-03
+INC-0391,9/16/2026 7:02,9/16/2026,9/16/2026 15:01,9/18/2026 3:30,Phishing Email,Medium,Finance,Email Account,User Report,Closed,R-03
+INC-0392,9/16/2026 8:31,9/16/2026,9/16/2026 16:17,9/17/2026 5:58,Malware / Suspicious File,Medium,Warehouse Operations,Laptop,User Report,Closed,R-11
+INC-0393,9/16/2026 20:05,9/16/2026,9/16/2026 23:07,9/17/2026 18:31,Malware / Suspicious File,High,Sales,Laptop,Endpoint Protection,Closed,R-11
+INC-0394,9/17/2026 9:09,9/17/2026,9/17/2026 11:02,9/18/2026 21:06,Lost or Stolen Device,High,Dispatch,Scanner,User Report,Closed,R-09
+INC-0395,9/18/2026 20:44,9/18/2026,9/19/2026 17:05,9/23/2026 17:32,Phishing Email,Low,Finance,Email Account,SIEM Alert,Closed,R-03
+INC-0396,9/19/2026 17:10,9/19/2026,9/19/2026 21:42,9/22/2026 0:37,System Outage / Failure,High,Warehouse Operations,File Server,Monitoring Alert,Closed,R-02
+INC-0397,9/20/2026 16:51,9/20/2026,9/21/2026 17:59,9/22/2026 16:51,Data Exposure,Low,Warehouse Operations,Cloud Application,Access Review,Closed,R-10
+INC-0398,9/20/2026 17:07,9/20/2026,9/20/2026 21:06,,Credential Stuffing / Failed Logins,Medium,Customer Service,Email Account,Identity Provider Log,Open,R-03
+INC-0399,9/21/2026 16:03,9/21/2026,9/24/2026 11:19,9/27/2026 17:11,Credential Stuffing / Failed Logins,Low,Customer Service,Email Account,SIEM Alert,Closed,R-03
+INC-0400,9/22/2026 8:03,9/22/2026,9/24/2026 1:03,,Phishing Email,Low,Sales,Email Account,User Report,Open,R-03
+INC-0401,9/22/2026 9:23,9/22/2026,9/22/2026 9:33,9/22/2026 23:22,Policy Violation,Critical,IT,Workstation,User Report,Closed,R-14
+INC-0402,9/22/2026 10:47,9/22/2026,9/22/2026 13:04,9/24/2026 8:40,Credential Stuffing / Failed Logins,Medium,IT,Cloud Application,SIEM Alert,Closed,R-03
+INC-0403,9/22/2026 20:41,9/22/2026,9/24/2026 5:04,,Phishing Email,Medium,Warehouse Operations,Email Account,Email Gateway,Open,R-03
+INC-0404,9/23/2026 2:41,9/23/2026,9/23/2026 6:09,9/24/2026 8:35,Phishing Email,Medium,Sales,Email Account,SIEM Alert,Closed,R-03
+INC-0405,9/25/2026 2:35,9/25/2026,9/26/2026 0:34,,System Outage / Failure,Low,IT,File Server,Monitoring Alert,Open,R-02
+INC-0406,9/25/2026 9:11,9/25/2026,9/25/2026 19:31,9/28/2026 14:56,Malware / Suspicious File,Medium,Dispatch,Laptop,User Report,Closed,R-11
+INC-0407,9/25/2026 9:49,9/25/2026,9/26/2026 1:21,9/29/2026 2:07,Policy Violation,Low,Dispatch,Email Account,User Report,Closed,R-14
+INC-0408,9/26/2026 2:57,9/26/2026,9/26/2026 6:28,9/30/2026 0:33,Phishing Email,Low,Dispatch,Laptop,Email Gateway,Closed,R-03
+INC-0409,9/26/2026 8:53,9/26/2026,9/26/2026 14:15,9/29/2026 10:47,Phishing Email,Medium,Warehouse Operations,Laptop,User Report,Closed,R-03
+INC-0410,9/29/2026 2:42,9/29/2026,9/29/2026 7:26,,Malware / Suspicious File,Medium,Customer Service,Laptop,User Report,Open,R-11
+INC-0411,9/29/2026 10:19,9/29/2026,9/30/2026 2:50,,Phishing Email,Medium,Sales,Email Account,SIEM Alert,Open,R-03
+INC-0412,9/29/2026 15:51,9/29/2026,9/29/2026 18:32,,Unauthorized Access,High,Dispatch,Cloud Application,Access Review,Open,R-05
+INC-0413,9/29/2026 20:34,9/29/2026,9/29/2026 23:50,,Phishing Email,Medium,Warehouse Operations,Email Account,User Report,Open,R-03
+INC-0414,9/30/2026 10:28,9/30/2026,,,Malware / Suspicious File,Medium,Finance,Workstation,Endpoint Protection,Open,R-11

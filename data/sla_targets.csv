@@ -1,0 +1,5 @@
+severity,respond_target_hours,resolve_target_hours,sort_order
+Critical,1,24,1
+High,4,72,2
+Medium,8,120,3
+Low,24,240,4
